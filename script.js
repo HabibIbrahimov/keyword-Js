@@ -5,7 +5,7 @@ function detectKey(e) {
     var posLeft = document.getElementById('myId').offsetLeft;
     var posTop = document.getElementById('myId').offsetTop;
 
-    e = e || window.event;
+    e = e || keyCode;
 
     if (e.keyCode == '38') {
         // up arrow
